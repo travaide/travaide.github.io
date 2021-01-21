@@ -1,0 +1,321 @@
+	* {
+	margin: 0;
+	padding: 0;
+	
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background-color: #101010;
+}
+
+.inner_header{
+	width: 70%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px; 
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+}
+
+.cherchez_emploi {
+	width: 35%;
+	margin-left: 15%;
+	padding: auto;
+}
+
+.cherchez_emploi h1 {
+	font-size: 3.5em;
+	margin-top: 150px;
+	margin-bottom:15px;
+}
+
+.cherchez_emploi p {
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+.moi {
+	width: 35%;
+	margin-left: 53%;
+	padding: auto;
+}
+
+.moi h1 {
+	font-size: 3.5em;
+	margin-top: 50px;
+	margin-bottom:15px;
+}
+
+.moi p {
+	font-size: 1.4em;
+	margin-bottom: 150px;
+	text-align: justify;
+}
+
+.boites {
+	display: flex;
+	justify-content: space-around;
+}
+
+.boites a {
+	text-align: center;
+	color: #101010;
+}
+
+.boites a h2{
+	text-align: center;
+	font-size: 3em;
+} 
+
+.boites div{
+	height: 300px;
+	width: 300px;
+	border: 10px solid black;
+	padding: 15px;
+}
+
+.boiteText	{
+	font-size: 1.4em;
+	text-align: justify;
+	padding-top: 40px; 
+}
+
+.cvRediger p ul li{
+	display: block;
+}
+
+.cvExplication h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.cvExplication p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;	
+}
+
+.cvRediger h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.cvRediger p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;	
+}
+
+.cvRediger ul {
+	list-style-type: disc;
+}
+
+.cvRediger ul li {
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20%;	
+}
+
+.cvExemples h1{
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.inner {
+	text-align: center;
+}
+
+.inner img{
+	display: inline-block;
+	height: 65%;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.cvExemples p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+
+.entrevueExplication h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.entrevueExplication p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;	
+}
+
+.entrevueConseils h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.entrevueConseils p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-bottom: 30px;	
+}
+
+.entrevueConseils ul {
+	list-style-type: disc;
+}
+
+.entrevueConseils ul li {
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20%;	
+}
+
+.entrevueExemples h1{
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.entrevueExemples p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.entrevueExemples ul li {
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20%;	
+}
+
+.entrevueExemples ul li ul li {
+	font-size: 0.95em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20%;	
+}
+
+.lastLI {
+	margin-bottom: 80px;
+}
+
+.emploisExplication h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.emploisExplication p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;	
+	margin-bottom: 30px;
+}
+
+.emploisCompagnies h1 {
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.emploisCompagnies p{
+	font-size: 1.4em;
+	width: 70%;
+	text-align: justify;
+	margin: auto;	
+	margin-bottom: 30px;
+}
+
+.emploisCompagnies a figure{
+ text-align: center;
+}
+
+.emploisCompagnies a figure img{
+	display: inline-block;
+	width: 20%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 5px solid black;
+	padding: 15px;
+
+
+}
+
+.emploisCompagnies h2{
+ 	font-size: 3em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
